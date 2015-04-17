@@ -58,10 +58,16 @@ main .right {
 #A2{
   color: blue;
 }
+
+#R2{
+  color: white;
+}
+
 footer .left {
   float: left;
   width: 570px;
 }
+
 
 footer .sitemap {
   float: right;
