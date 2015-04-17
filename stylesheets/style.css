@@ -19,6 +19,8 @@ header {
 header h1 {
   float: left;
   width: 570px;
+  font-size: 180%;
+  font-weight: bolder;
 }
 
 header nav {
@@ -27,7 +29,7 @@ header nav {
 }
 
 main {
-  background: white;
+  background-image: url(../images/Awesome.jpg);
   overflow: auto;
 }
 
@@ -41,6 +43,21 @@ main .right {
   width: 285px;
 }
 
+#Q1{
+  color: red;
+}
+
+#Q2{
+  color: green;
+}
+
+#A1{
+  color: yellow;
+}
+
+#A2{
+  color: blue;
+}
 footer .left {
   float: left;
   width: 570px;
