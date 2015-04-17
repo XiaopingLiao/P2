@@ -84,24 +84,22 @@ var result = [];
 	return result;
 };
 
-var maxWord = function(n){
+var maxWord = function(myString){
 
-	var n =[];
-	var res = n.split("");
-	var s = n[0];
+	var res = myString.split(" ");
+	var longestWord = "";
 	
-	var position = 0;
 	
-	for(var i = 0; i < n.length; i++) {
+	for(var i = 0; i < res.length; i++) {
 	
-		if(s.length < n[i].length) {
-			s = n[i];
-			position = i;
+		if(longestWord.length < res[i].length) {
+			longestWord = res[i];
+		
 		}
 
 	}	
 
-	return s = n[i];
+	return longestWord;
 };
 
 
